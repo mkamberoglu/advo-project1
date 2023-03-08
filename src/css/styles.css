@@ -513,6 +513,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-advo-main {
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 54 57 / var(--tw-bg-opacity));
+}
+
+.font-merriweather {
+  font-family: Merriweather, serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -522,6 +531,7 @@ video {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-advo-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(246 247 193 / var(--tw-text-opacity));
 }
